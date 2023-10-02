@@ -9,17 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@web3modal/wagmi": "^3.0.2",
+    "axios": "^1.5.1",
+    "gsap": "^3.12.2",
+    "next": "latest",
     "react": "latest",
+    "react-countdown": "^2.3.5",
     "react-dom": "latest",
-    "next": "latest"
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "splitting": "^1.0.6",
+    "viem": "^1.14.0",
+    "wagmi": "^1.4.2"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
+    "@types/react": "latest",
     "@types/react-dom": "latest",
+    "@types/react-slick": "^0.23.10",
+    "@types/splitting": "^1.0.3",
     "autoprefixer": "latest",
     "postcss": "latest",
-    "tailwindcss": "latest"
+    "tailwindcss": "latest",
+    "typescript": "latest"
   }
 }
